@@ -1,9 +1,9 @@
 import java.util.List;
 
 public class Humain extends Predateur {
-    private int intelligence;
-    private double cooperation;
-    private double aggression;
+    protected int intelligence;
+    protected double cooperation;
+    protected double aggression;
 
     public Humain(String nom, String sexe, String espece, double energieInitiale, int niveau, int maxAge,
                   double rapidite, double champDeVision, double coutChasse, double gainChasse, int intelligence,
